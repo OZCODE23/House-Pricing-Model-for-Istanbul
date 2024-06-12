@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import pandas as pd
 import base64
+from sklearn.ensemble import RandomForestRegressor
 
 # Eğitilmiş modeli yükleme
 model = joblib.load('ev_fiyat_model.joblib')
