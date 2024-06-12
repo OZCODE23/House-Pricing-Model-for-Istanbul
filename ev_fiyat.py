@@ -95,7 +95,7 @@ def ev_fiyat_tahmini(ilce, oda, kat, ev_tipi, brut_metrekare, bina_yasi, bina_ka
     # Modeli kullanarak tahmin yapma
     tahmin = model.predict(girdiler.values)
 
-    return tahmin[0]*3
+    return tahmin[0]*2.5
 
 # Arka plan resmini ekleme
 def set_background(image_file):
